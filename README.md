@@ -2,7 +2,7 @@
 Code and data for using BERMAD, a novel deep learning based framework for batch effect removal in scRNA-seq data. 
 
 ## Install
-git clone https://github.com/zhanglabNKU/HDMC.git  
+git clone https://github.com/zhanglabNKU/BERMAD.git  
 cd BERMAD/
 
 ## R Dependencies
