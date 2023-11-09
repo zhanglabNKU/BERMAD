@@ -40,9 +40,9 @@ parser.add_argument('-data_folder', type=str, default='./', help='folder for loa
 parser.add_argument('-files', nargs='+', default=[], help='file names of different batches')
 parser.add_argument('-similarity_thr', type=float, default=0.9, help='similarity threshold for distribution matching')
 parser.add_argument('-num_epochs', type=float, default=2000, help='number of training epochs')
-parser.add_argument('-alpha', type=float, default=0.3, help='weight for hidden1 layer')
-parser.add_argument('-beta', type=float, default=0.3, help='weight for hidden2 layer')
-parser.add_argument('-delta', type=float, default=0.3, help='weight for code layer')
+parser.add_argument('-alpha', type=float, default=0.1, help='weight for hidden1 layer')
+parser.add_argument('-beta', type=float, default=0.1, help='weight for hidden2 layer')
+parser.add_argument('-delta', type=float, default=0.5, help='weight for code layer')
 
 plt.ioff()
 
