@@ -3,8 +3,8 @@ import torch
 import torch.utils.data
 from torch.autograd import Variable
 import torch.nn.functional as F
-import BERMAD.ae as models
-from BERMAD.mmd import mix_rbf_mmd2
+import ae as models
+from mmd import mix_rbf_mmd2
 import math
 import time
 from imblearn.over_sampling import RandomOverSampler
